@@ -1,7 +1,7 @@
-import {ReduxContainer} from './store/containers/ReduxContainer'
-import CounterView from '../components/counterView';
-import IncrementControl from "../components/incrementControl";
-import DecrementControl from "../components/decrementControl";
+import {ReduxContainer} from '../src/store/containers/ReduxContainer'
+import CounterView from '../src/components/counterView';
+import IncrementControl from "../src/components/incrementControl";
+import DecrementControl from "../src/components/decrementControl";
 
 export default () => (
 	<div className={'layout'}>
